@@ -1,6 +1,6 @@
 // Planet Nine Daily Tracker
 
-const ARXIV_QUERY = 'http://export.arxiv.org/api/query?search_query=' +
+const ARXIV_QUERY = 'https://export.arxiv.org/api/query?search_query=' +
   encodeURIComponent('all:"Planet Nine" OR all:"Planet 9"') +
   '&sortBy=submittedDate&sortOrder=descending&max_results=10';
 
