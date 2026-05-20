@@ -1,0 +1,557 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:arxiv="http://arxiv.org/schemas/atom" xmlns="http://www.w3.org/2005/Atom">
+  <id>https://arxiv.org/api/JXYEi+e3vMqJpQcMEZC4mDOnTZE</id>
+  <title>arXiv Query: search_query=all:"Planet Nine" OR all:"Planet 9"&amp;id_list=&amp;start=0&amp;max_results=10</title>
+  <updated>2026-05-20T17:15:07Z</updated>
+  <link href="https://arxiv.org/api/query?search_query=all:%22Planet+Nine%22+OR+all:%22Planet+9%22&amp;start=0&amp;max_results=10&amp;id_list=" type="application/atom+xml"/>
+  <opensearch:itemsPerPage>10</opensearch:itemsPerPage>
+  <opensearch:totalResults>157</opensearch:totalResults>
+  <opensearch:startIndex>0</opensearch:startIndex>
+  <entry>
+    <id>http://arxiv.org/abs/2604.12787v1</id>
+    <title>Dark matter heating of Planet 9, and its observational implications</title>
+    <updated>2026-04-14T14:20:47Z</updated>
+    <link href="https://arxiv.org/abs/2604.12787v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2604.12787v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>The observed unusual behaviors of the orbits of Trans-Neptunian objects as well as the gravitational anomalies detected by the Optical Gravitational Lensing Experiment can be explained by assuming the existence of a ninth planet in the Solar System, having a mass of the order of $5-10M_{\oplus}$, and located at the distance of 300-1000 AU from the Sun. Since no optical counterpart of Planet 9 was observed, it is reasonable to assume that it has a very low luminosity. Various proposals on the nature of Planet 9 have been advanced, including the possibility that it is a black hole, an axion or a dark matter star. We propose that dark matter heating of Planet 9 could generate a thermal radio flux that could allow its observational detection, even if Planet 9 is a very dark object. We estimate the dark matter impact parameter, the mass and the kinetic energy deposition rates, as well as the surface temperature of Planet 9. By adopting a specific model for the time evolution of the planet, and assuming a long time capture of dark matter, the surface temperature of Planet 9, and the spectral features of the emitted radiation are obtained. Our results indicate that dark matter capture may provide an efficient mechanism for the heating of Planet 9, and also provide a specific observational signature of the planet. The numerical evaluations depend on the unknown value of the dark matter-ordinary matter interaction cross-section, with the estimates obtained as a function of its ratio and the saturation cross section for dark matter to deposit its entire energy. For a value of this ratio of $10^{-10}$, and for a dark matter density of the order of $1.32\times 10^{-17}$ g/cm$^3$, in a few Gyrs the surface temperature of Planet 9 can reach values of the order of 200 K, or even higher, with a maximum wavelength of around $λ_{max}=1.44\times 10^{-3}$ cm, situated in the infrared domain.</summary>
+    <category term="gr-qc" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="astro-ph.EP" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="hep-th" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2026-04-14T14:20:47Z</published>
+    <arxiv:comment>22 pages, 3 figures</arxiv:comment>
+    <arxiv:primary_category term="gr-qc"/>
+    <arxiv:journal_ref>Discover Space 130, 10 (2026)</arxiv:journal_ref>
+    <author>
+      <name>Tiberiu Harko</name>
+    </author>
+    <arxiv:doi>10.1007/s11038-026-09590-6</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1007/s11038-026-09590-6" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2604.09845v1</id>
+    <title>Spectroscopic Characterization of WD J000801.25-350450 and its Two Co-Moving Companions</title>
+    <updated>2026-04-10T19:18:26Z</updated>
+    <link href="https://arxiv.org/abs/2604.09845v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2604.09845v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>We present new spectroscopic data for Gaia DR3 2309499817384726016 (WD0008-350A) and its two wide, co-moving, low-mass companions. We confirm the white dwarf is a hydrogen-rich DA, with T$_{\rm eff}$=6200$\pm$90~K and a mass of 0.63$\pm$0.03~M${\odot}$, close to that of the average white dwarf.
+  Near-infrared spectra of the two stellar companions to WD0008-350A reveal that the inner companion is an M dwarf, exhibiting a spectral type of M8. Furthermore, the outer companion is identified as a possible M6 + M9 binary. This paper examines the evidence which suggests the system may be quadruple.</summary>
+    <category term="astro-ph.SR" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2026-04-10T19:18:26Z</published>
+    <arxiv:comment>9 pages, 4 figures. Accepted by the Astronomical Journal</arxiv:comment>
+    <arxiv:primary_category term="astro-ph.SR"/>
+    <author>
+      <name>Peter A. Jałowiczor</name>
+    </author>
+    <author>
+      <name>Thomas P. Bickle</name>
+    </author>
+    <author>
+      <name>J. Davy Kirkpatrick</name>
+    </author>
+    <author>
+      <name>Sarah L. Casewell</name>
+    </author>
+    <author>
+      <name>Nicola Gentile Fusillo</name>
+    </author>
+    <author>
+      <name>Adam C. Schneider</name>
+    </author>
+    <author>
+      <name>Jonathan Gagné</name>
+    </author>
+    <author>
+      <name>Jacqueline K. Faherty</name>
+    </author>
+    <author>
+      <name>Aaron M. Meisner</name>
+    </author>
+    <author>
+      <name>Marc J. Kuchner</name>
+    </author>
+    <author>
+      <name>Adam J. Burgasser</name>
+    </author>
+    <author>
+      <name>Austin Rothermich</name>
+    </author>
+    <author>
+      <name>Alexia Bravo</name>
+    </author>
+    <author>
+      <name>Michiharu Hyogo</name>
+    </author>
+    <author>
+      <name>Mark Popinchalk</name>
+    </author>
+    <author>
+      <name>Alex J. Brown</name>
+    </author>
+    <author>
+      <name>Alberto Rebassa-Mansergas</name>
+    </author>
+    <author>
+      <name>Raquel Murillo-Ojeda</name>
+    </author>
+    <author>
+      <name>The Backyard Worlds</name>
+    </author>
+    <author>
+      <name> :</name>
+    </author>
+    <author>
+      <name>Planet 9 Collaboration</name>
+    </author>
+    <arxiv:doi>10.3847/1538-3881/ae38d3</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.3847/1538-3881/ae38d3" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2604.01323v1</id>
+    <title>Three Thousand Motion-Confirmed L and T Dwarf Candidates from the Backyard Worlds:~Planet 9 Citizen Science Project</title>
+    <updated>2026-04-01T18:58:05Z</updated>
+    <link href="https://arxiv.org/abs/2604.01323v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2604.01323v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>The Backyard Worlds: Planet 9 citizen science project uses data from the Wide-field Infrared Survey Explorer to detect infrared objects with significant motion. In this work, we present the majority of the L and T dwarf candidates discovered through this effort. For each candidate, we provide proper motion measurements as well as optical, near-infrared, and mid-infrared photometry (when available), photometric spectral types and distance estimates. Three thousand and six new motion-confirmed discoveries are presented in this work, 2,357 with L-type photometric spectral types and 649 with T-type photometric spectral types. We also present an additional 80 objects as likely L or T dwarfs based on available photometry, but for which a significant motion measurement could not be obtained. We identify 28 objects in this sample as new comoving companions to higher-mass stars, and an additional 9 sources that are candidate binary systems made up of two ultracool dwarfs of L-type or later. Follow-up spectroscopic observations will be necessary to confirm spectral types and further characterize the sources discovered through this project. This work presents the largest single sample of motion-confirmed L and T dwarf discoveries to date, which would more than double the number of known L and T dwarfs, if confirmed. We wish to sincerely thank our citizen scientist collaborators for their monumental efforts that have directly impacted this project's success.</summary>
+    <category term="astro-ph.SR" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2026-04-01T18:58:05Z</published>
+    <arxiv:comment>Accepted to AJ</arxiv:comment>
+    <arxiv:primary_category term="astro-ph.SR"/>
+    <author>
+      <name>Adam C. Schneider</name>
+    </author>
+    <author>
+      <name>Marc J. Kuchner</name>
+    </author>
+    <author>
+      <name>Jacqueline K. Faherty</name>
+    </author>
+    <author>
+      <name>Aaron M. Meisner</name>
+    </author>
+    <author>
+      <name>J. Davy Kirkpatrick</name>
+    </author>
+    <author>
+      <name>Adam J. Burgasser</name>
+    </author>
+    <author>
+      <name>Daniella Bardalez Gagliuffi</name>
+    </author>
+    <author>
+      <name>Thomas P. Bickle</name>
+    </author>
+    <author>
+      <name>Dan Caselden</name>
+    </author>
+    <author>
+      <name>Sarah L. Casewell</name>
+    </author>
+    <author>
+      <name>Jonathan Gagné</name>
+    </author>
+    <author>
+      <name>Easton J. Honaker</name>
+    </author>
+    <author>
+      <name>Frank Kiwy</name>
+    </author>
+    <author>
+      <name>Federico Marocco</name>
+    </author>
+    <author>
+      <name>Austin Rothermich</name>
+    </author>
+    <author>
+      <name>Nikolaj Stevnbak Andersen</name>
+    </author>
+    <author>
+      <name>Lizzeth Ruiz Arroyo</name>
+    </author>
+    <author>
+      <name>Bruce Baller</name>
+    </author>
+    <author>
+      <name>Paul Beaulieu</name>
+    </author>
+    <author>
+      <name>John Bell</name>
+    </author>
+    <author>
+      <name>Martin Bilsing</name>
+    </author>
+    <author>
+      <name>Troy K. Bohling</name>
+    </author>
+    <author>
+      <name>Guillaume Colin</name>
+    </author>
+    <author>
+      <name>Giovanni Colombo</name>
+    </author>
+    <author>
+      <name>Sam Deen</name>
+    </author>
+    <author>
+      <name>Alexandru Dereveanco</name>
+    </author>
+    <author>
+      <name>Kevin Dixon</name>
+    </author>
+    <author>
+      <name>Hugo A. Durantini Luca</name>
+    </author>
+    <author>
+      <name>Deiby Flores</name>
+    </author>
+    <author>
+      <name>Christoph Frank</name>
+    </author>
+    <author>
+      <name>Christopher Fulvi</name>
+    </author>
+    <author>
+      <name>Michael Gallmann</name>
+    </author>
+    <author>
+      <name>Jean Marc Gantier</name>
+    </author>
+    <author>
+      <name>Konstantin Glebov</name>
+    </author>
+    <author>
+      <name>Léopold Gramaize</name>
+    </author>
+    <author>
+      <name>Leslie K. Hamlet</name>
+    </author>
+    <author>
+      <name>Ken Hinckley</name>
+    </author>
+    <author>
+      <name>Kevin Jablonski</name>
+    </author>
+    <author>
+      <name>Peter A. Jałowiczor</name>
+    </author>
+    <author>
+      <name>Martin Kabatnik</name>
+    </author>
+    <author>
+      <name>Peter Kasprowitz</name>
+    </author>
+    <author>
+      <name>K Ly</name>
+    </author>
+    <author>
+      <name>David W. Martin</name>
+    </author>
+    <author>
+      <name>Naoufel Marzak</name>
+    </author>
+    <author>
+      <name>Alexander McColgan</name>
+    </author>
+    <author>
+      <name>Neil J. McEwan</name>
+    </author>
+    <author>
+      <name>Marianne N. Michaels</name>
+    </author>
+    <author>
+      <name>William Pendrill</name>
+    </author>
+    <author>
+      <name>Stéphane Perlin</name>
+    </author>
+    <author>
+      <name>Ben Pumphrey</name>
+    </author>
+    <author>
+      <name>James Rabe</name>
+    </author>
+    <author>
+      <name>Henry Raway</name>
+    </author>
+    <author>
+      <name>Walter Ruben Robledo</name>
+    </author>
+    <author>
+      <name>David Roser</name>
+    </author>
+    <author>
+      <name>Animesh Roy</name>
+    </author>
+    <author>
+      <name>Arttu Sainio</name>
+    </author>
+    <author>
+      <name>Vincent Schindler</name>
+    </author>
+    <author>
+      <name>Manfred Schonau</name>
+    </author>
+    <author>
+      <name>Jörg Schümann</name>
+    </author>
+    <author>
+      <name>Karl Selg-Mann</name>
+    </author>
+    <author>
+      <name>Andrea Serio</name>
+    </author>
+    <author>
+      <name>David Sirbescu-Stanley</name>
+    </author>
+    <author>
+      <name>Patrick Smith</name>
+    </author>
+    <author>
+      <name>Andres Stenner</name>
+    </author>
+    <author>
+      <name>Christine Sunjoto</name>
+    </author>
+    <author>
+      <name>Christopher Tanner</name>
+    </author>
+    <author>
+      <name>Melina Thévenot</name>
+    </author>
+    <author>
+      <name>Vinod Thakur</name>
+    </author>
+    <author>
+      <name>Mayahuel Torres Guerrero</name>
+    </author>
+    <author>
+      <name>Maurizio Ventura</name>
+    </author>
+    <author>
+      <name>Nikita V. Voloshin</name>
+    </author>
+    <author>
+      <name>Jim Walla</name>
+    </author>
+    <author>
+      <name>Zbigniew Wȩdracki</name>
+    </author>
+    <author>
+      <name>Bailey Weyandt</name>
+    </author>
+    <author>
+      <name>Breck Wilhite</name>
+    </author>
+    <author>
+      <name>Spartacus Zitouni</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2602.00802v1</id>
+    <title>Has Kronos devoured Planet Nine and its epigones?</title>
+    <updated>2026-01-31T16:25:12Z</updated>
+    <link href="https://arxiv.org/abs/2602.00802v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2602.00802v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>The Planet Nine hypothesis encompasses a body of about 5-8 Earth's masses whose orbital plane would be inclined to the ecliptic by one or two tens of degrees and whose perihelion distance would be as large as about 240-385 astronomical units. Recently, a couple of his epigones have appeared: Planet X and Planet Y. The former is a sort of minor version of Planet Nine in that all its physical and orbital parameters would be smaller. Instead, the latter would have a mass ranging from that of Mercury to the Earth's one and semimajor axis within 100-200 astronomical units. By using realistic upper bounds for the orbital precessions of Saturn, one can get insights on their position which, for Planet Nine, appears approximately confined around its aphelion. Planet Y can be just a Mercury-sized object at no less than about 125 astronomical units, while Planet X appears to be ruled out. Dedicated data reductions by modeling such perturber(s) are required to check the present conclusions, to be intended as hints of what might be detectable should planetary ephemerides include them. A probe on the same route of Voyager 1 would be perturbed by Planet Nine by about 20-40 km after some decades.</summary>
+    <category term="astro-ph.EP" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="gr-qc" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="physics.space-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2026-01-31T16:25:12Z</published>
+    <arxiv:comment>LaTex, 22 pages, 2 tables, 5 figures. Accepted for publication in Universe</arxiv:comment>
+    <arxiv:primary_category term="astro-ph.EP"/>
+    <arxiv:journal_ref>Universe, 2026, 12(2), 4</arxiv:journal_ref>
+    <author>
+      <name>Lorenzo Iorio</name>
+    </author>
+    <arxiv:doi>10.3390/universe1010000</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.3390/universe1010000" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2512.17494v1</id>
+    <title>A search for late-type brown dwarfs in the Euclid Quick Data Release 1</title>
+    <updated>2025-12-19T12:05:46Z</updated>
+    <link href="https://arxiv.org/abs/2512.17494v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2512.17494v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>We present the identification and characterization of 15 mid-to-late T dwarf candidates in the Euclid Quick Release 1 (Q1) dataset, based on a combined photometric and spectroscopic analysis. Candidates were initially selected via color-based cuts in the Euclid $Y_E - J_E$ and $J_E - H_E$ color-color space, targeting the region occupied by ultracool dwarfs in synthetic photometry from the Sanghi et al. (2024) sample. From an initial pool of 38,845 sources, we extracted low-resolution near-infrared spectra from the Euclid NISP instrument and applied a two-stage validation procedure that included spectral template fitting followed by visual inspection. Eight of the 15 validated candidates are newly identified objects with no prior literature association. We examined their morphological and photometric properties and compared them with established spectral standards. Photometric distances were derived using band-averaged distance modulus estimates. We discuss the limitations and promise of the Euclid survey for ultracool dwarf studies, and demonstrate the potential for discovering substellar populations beyond the reach of current wide-field surveys.</summary>
+    <category term="astro-ph.SR" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2025-12-19T12:05:46Z</published>
+    <arxiv:primary_category term="astro-ph.SR"/>
+    <author>
+      <name>Frank Kiwy</name>
+    </author>
+    <author>
+      <name>J. Davy Kirkpatrick</name>
+    </author>
+    <author>
+      <name>Adam C. Schneider</name>
+    </author>
+    <author>
+      <name>Aaron M. Meisner</name>
+    </author>
+    <author>
+      <name>Jacqueline K. Faherty</name>
+    </author>
+    <author>
+      <name>Marc J. Kuchner</name>
+    </author>
+    <author>
+      <name>Daniella Bardalez Gagliuffi</name>
+    </author>
+    <author>
+      <name>Sarah L. Casewell</name>
+    </author>
+    <author>
+      <name>Thomas P. Bickle</name>
+    </author>
+    <author>
+      <name>The Backyard Worlds</name>
+    </author>
+    <author>
+      <name> :</name>
+    </author>
+    <author>
+      <name>Planet 9 Collaboration</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2509.25428v1</id>
+    <title>Multi-year stacking searches for solar system bodies</title>
+    <updated>2025-09-29T19:36:49Z</updated>
+    <link href="https://arxiv.org/abs/2509.25428v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2509.25428v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Digital tracking detects faint solar system bodies by stacking many images along hypothesized orbits, revealing objects that are undetectable in every individual exposure. Previous searches have been restricted to small areas and short time baselines. We present a general framework to quantify both sensitivity and computational requirements for digital tracking of nonlinear motion across the full sky over multi-year baselines. We start from matched-filter stacking and derive how signal-to-noise ratio (SNR) degrades with trial orbit mismatch, which leads to a metric tensor on orbital parameter space. The metric defines local Euclidean coordinates in which SNR loss is isotropic, and a covariant density that specifies the exact number of trial orbits needed for a chosen SNR tolerance. We validate the approach with Zwicky Transient Facility (ZTF) data, recovering known objects in blind searches that stack thousands of images over six years along billions of trial orbits. We quantify ZTF's sensitivity to populations beyond 5 au and show that stacking reaches most of the remaining Planet 9 parameter space. The computational demands of all-sky, multi-year tracking are extreme, but we demonstrate that time segmentation and image blurring greatly reduce orbit density at modest sensitivity cost. Stacking effectively boosts medium-aperture surveys to the Rubin Observatory single-exposure depth across the northern sky. Digital tracking in dense Rubin observations of a 10 sq. deg field is tractable and could detect trans-Neptunian objects to 27th magnitude in a single night, with deep drilling fields reaching fainter still.</summary>
+    <category term="astro-ph.EP" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="astro-ph.IM" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2025-09-29T19:36:49Z</published>
+    <arxiv:comment>27 pages, 11 figures, submitted to AJ</arxiv:comment>
+    <arxiv:primary_category term="astro-ph.EP"/>
+    <author>
+      <name>Alex Geringer-Sameth</name>
+    </author>
+    <author>
+      <name>Nathan Golovich</name>
+    </author>
+    <author>
+      <name>Keita Iwabuchi</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2507.22297v1</id>
+    <title>The Radius, Composition, Albedo, and Absolute Magnitude of Planet Nine Based on Exoplanets with Teq less than 600 K and the Planet Nine Reference Population 3.0</title>
+    <updated>2025-07-30T00:11:20Z</updated>
+    <link href="https://arxiv.org/abs/2507.22297v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2507.22297v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Evidence suggests the existence of a large planet in the outer Solar System, Planet Nine, with a predicted mass of 6.6 +2.6 / -1.7 Earth masses (Brown et al., 2024). Based on mass radius composition models, planet formation theory, and confirmed exoplanets with low mass and radius uncertainty and equilibrium temperature less than 600 K, we determine the most likely composition for Planet Nine is a mini-Neptune with a radius in the range 2.0 to 2.6 Earth radii and a H-He envelope fraction in the range of 0.6 percent to 3.5 percent by mass. Using albedo estimates for a mini-Neptune extrapolated from V-band data for the Solar Systems giant planets gives albedo values for Planet Nine in the range of 0.47 to 0.33. Using the most likely orbit and aphelion estimates from the Planet Nine Reference Population 3.0, we estimate Planet Nines absolute magnitude in the range of -6.1 to -5.2 and apparent magnitude in the range of +21.9 to +22.7. Finally, we estimate that, if the hypothetical Planet Nine exists and is detected by upcoming surveys, it will have a resolvable disk using some higher resolution world class telescopes.</summary>
+    <category term="astro-ph.EP" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2025-07-30T00:11:20Z</published>
+    <arxiv:comment>10 pages, 6 tables, 2 figures</arxiv:comment>
+    <arxiv:primary_category term="astro-ph.EP"/>
+    <author>
+      <name>David G. Russell</name>
+    </author>
+    <author>
+      <name>Terry L. White</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2506.12854v1</id>
+    <title>A Far-Infrared Search for Planet Nine Using AKARI All-Sky Survey</title>
+    <updated>2025-06-15T14:01:04Z</updated>
+    <link href="https://arxiv.org/abs/2506.12854v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2506.12854v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>An unusual orbital element clustering of Kuiper belt objects (KBOs) has been observed. The most promising dynamic solution is the presence of a giant planet in the outer Solar system, Planet Nine. However, due to its extreme distance, intensive searches in optical have not been successful. We aim to find Planet Nine in the far-infrared, where it has the peak of the black body radiation, using the most sensitive all-sky far-infrared survey to date, AKARI. In contrast to optical searches, where the energy of reflected sunlight decreases by $d^{4}$, thermal radiation in the infrared decreases with the square of the heliocentric distance $d^{2}$. We search for moving objects in the AKARI Single Scan Detection List. We select sources from a promising region suggested by an N-body simulation from Millholland and Laughlin 2017: $30^{\circ}&lt;$ R.A. $&lt;50^{\circ}$ and $-20^{\circ}&lt;$ Dec. $&lt;20^{\circ}$. Known sources are excluded by cross-matching AKARI sources with 9 optical and infrared catalogues. Furthermore, we select sources with small background strength to avoid sources in the cirrus. Since Planet Nine is stationary in a timescale of hours but moves on a monthly scale, our primary strategy is to select slowly moving objects that are stationary in 24 hours but not in six months, using multiple single scans by AKARI. The selected slowly moving AKARI sources are scrutinised for potential contamination from cosmic rays. Our analysis reveals two possible Planet Nine candidates whose positions and flux are within the theoretical prediction ranges. These candidates warrant further investigation through follow-up observations to confirm the existence and properties of Planet Nine.</summary>
+    <category term="astro-ph.EP" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="astro-ph.IM" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="astro-ph.SR" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2025-06-15T14:01:04Z</published>
+    <arxiv:comment>12 pages, 8 figures, 2 tables. Accepted for publication in Publications of the Astronomical Society of Australia. For more information, see https://docs.google.com/document/d/1WUfVFAe-cWPEq4YJVCMagR3PaN_dudgWsGs9oZnVvQc/edit?usp=sharing</arxiv:comment>
+    <arxiv:primary_category term="astro-ph.EP"/>
+    <author>
+      <name>Amos Y. -A. Chen</name>
+    </author>
+    <author>
+      <name>Tomotsugu Goto</name>
+    </author>
+    <author>
+      <name>Issei Yamamura</name>
+    </author>
+    <author>
+      <name>Takao Nakagawa</name>
+    </author>
+    <author>
+      <name>Cossas K. -W. Wu</name>
+    </author>
+    <author>
+      <name>Terry Long Phan</name>
+    </author>
+    <author>
+      <name>Tetsuya Hashimoto</name>
+    </author>
+    <author>
+      <name>Yuri Uno</name>
+    </author>
+    <author>
+      <name>Simon C. -C. Ho</name>
+    </author>
+    <author>
+      <name>Seong Jin Kim</name>
+    </author>
+    <arxiv:doi>10.1017/pasa.2025.10037</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1017/pasa.2025.10037" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2506.02144v1</id>
+    <title>A Pan-STARRS Search for Distant Planets: Part 1</title>
+    <updated>2025-06-02T18:13:46Z</updated>
+    <link href="https://arxiv.org/abs/2506.02144v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2506.02144v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>We present a search for distant planets in Pan-STARRS1. We calibrated our search by injecting an isotropic control population of synthetic detections into Pan-STARRS1 source catalogs, providing a high-fidelity alternative to injecting synthetic sources at the image level. We found that our method is sensitive to a wide range of distances, as well as all rates and directions of motion. We identified 692 solar system objects (109 of which are not yet listed in the Minor Planet Center's database), including 642 TNOs, 23 of which are dwarf planets. By raw number of detections, this makes our search the third most productive Kuiper Belt survey to date, in spite of the fact that we did not explicitly search for objects closer than 80 au. Although we did not find Planet Nine or any other planetary objects, we were able to show that the remaining parameter space for Planet Nine is highly concentrated in the galactic plane.</summary>
+    <category term="astro-ph.EP" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="astro-ph.IM" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2025-06-02T18:13:46Z</published>
+    <arxiv:comment>23 pages, 9 figures. PSJ accepted 2025 May 23</arxiv:comment>
+    <arxiv:primary_category term="astro-ph.EP"/>
+    <author>
+      <name>Matthew J. Holman</name>
+    </author>
+    <author>
+      <name>Kevin J. Napier</name>
+    </author>
+    <author>
+      <name>Matthew J. Payne</name>
+    </author>
+    <author>
+      <name>Jacob A. Kurlander</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2505.24093v1</id>
+    <title>Very-wide-orbit planets from dynamical instabilities during the stellar birth cluster phase</title>
+    <updated>2025-05-30T00:42:50Z</updated>
+    <link href="https://arxiv.org/abs/2505.24093v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2505.24093v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Gas giant planets have been detected on eccentric orbits several hundreds of astronomical units in size around other stars. It has been proposed that even the Sun hosts a wide-orbit planet of 5-10 Earth masses, often called Planet Nine, which influences the dynamics of distant Trans-Neptunian objects. However, the formation mechanism of such planets remains uncertain. Here we use numerical simulations to show that very wide-orbit planets are a natural byproduct of dynamical instabilities that occur in planetary systems while their host stars are still embedded in natal stellar clusters. A planet is first brought to an eccentric orbit with an apoastron of several hundred au by repeated gravitational scattering by other planets, then perturbations from nearby stellar flybys stabilise the orbit by decoupling the planet from the interaction with the inner system. In our Solar System, the two main events likely conducive to planetary scattering were the growth of Uranus and Neptune, and the giant planets instability. We estimate a 5-10% likelihood of creating a very wide-orbit planet if either happened while the Sun was still in its birth cluster, rising to 40% if both were. In our simulated exoplanetary systems, the trapping efficiency is 1-5\%. Our results imply that planets on wide, eccentric orbits occur at least $10^{-3}$ per star.</summary>
+    <category term="astro-ph.EP" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="astro-ph.GA" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="astro-ph.SR" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2025-05-30T00:42:50Z</published>
+    <arxiv:comment>Published in Nature Astronomy on May 27, 2025. Authors' version including Methods and Supplementary Information. Associated animations available at https://youtu.be/GLPJQIGE8xg and https://youtu.be/Sr_0X_JaaZE</arxiv:comment>
+    <arxiv:primary_category term="astro-ph.EP"/>
+    <author>
+      <name>André Izidoro</name>
+    </author>
+    <author>
+      <name>Sean N. Raymond</name>
+    </author>
+    <author>
+      <name>Nathan A. Kaib</name>
+    </author>
+    <author>
+      <name>Alessandro Morbidelli</name>
+    </author>
+    <author>
+      <name>Andrea Isella</name>
+    </author>
+    <arxiv:doi>10.1038/s41550-025-02556-0</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1038/s41550-025-02556-0" title="doi"/>
+  </entry>
+</feed>

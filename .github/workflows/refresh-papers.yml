@@ -1,0 +1,35 @@
+name: Refresh arXiv papers
+
+on:
+  schedule:
+    # Daily at 06:00 UTC (~01:00 ET / 02:00 EDT)
+    - cron: '0 6 * * *'
+  workflow_dispatch: {}
+
+permissions:
+  contents: write
+
+jobs:
+  refresh:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Fetch arXiv Planet Nine query
+        run: |
+          curl -fsSL --retry 3 --retry-delay 5 \
+            'https://export.arxiv.org/api/query?search_query=all%3A%22Planet+Nine%22+OR+all%3A%22Planet+9%22&sortBy=submittedDate&sortOrder=descending&max_results=10' \
+            -o papers.xml
+          echo "Fetched $(wc -c < papers.xml) bytes"
+
+      - name: Commit if changed
+        run: |
+          git config user.name 'github-actions[bot]'
+          git config user.email 'github-actions[bot]@users.noreply.github.com'
+          git add papers.xml
+          if git diff --cached --quiet; then
+            echo "No changes to papers.xml"
+          else
+            git commit -m "chore: daily arXiv papers refresh"
+            git push
+          fi

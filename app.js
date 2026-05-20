@@ -1,8 +1,9 @@
 // Planet Nine Daily Tracker
 
-const ARXIV_QUERY = 'https://export.arxiv.org/api/query?search_query=' +
-  encodeURIComponent('all:"Planet Nine" OR all:"Planet 9"') +
-  '&sortBy=submittedDate&sortOrder=descending&max_results=10';
+// Static papers.xml is refreshed daily by .github/workflows/refresh-papers.yml.
+// arXiv's API does not send CORS headers, so we cannot call it from the browser —
+// the GitHub Action fetches it server-side and commits the result.
+const PAPERS_URL = './papers.xml';
 
 function setDateLabels() {
   const now = new Date();
@@ -77,8 +78,8 @@ function renderPapers(papers) {
 async function loadPapers() {
   const container = document.getElementById('papers-list');
   try {
-    const resp = await fetch(ARXIV_QUERY);
-    if (!resp.ok) throw new Error(`arXiv responded ${resp.status}`);
+    const resp = await fetch(PAPERS_URL, { cache: 'no-cache' });
+    if (!resp.ok) throw new Error(`Could not load papers.xml (${resp.status})`);
     const xml = await resp.text();
     const papers = parseArxivFeed(xml);
     renderPapers(papers);
