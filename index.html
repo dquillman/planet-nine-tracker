@@ -1,0 +1,291 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Planet Nine Daily Tracker</title>
+  <link rel="icon" type="image/svg+xml" href="logo.svg" />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <header class="hero">
+    <div class="stars"></div>
+    <div class="hero-content">
+      <img src="logo.svg" alt="" class="logo" width="80" height="80" />
+      <h1>Planet Nine</h1>
+      <p class="tagline">Daily Tracker — News &amp; Probable Location</p>
+      <p id="today" class="today"></p>
+    </div>
+  </header>
+
+  <main>
+    <section class="card" id="status-card">
+      <h2>Status</h2>
+      <p>
+        Planet Nine is a <strong>hypothetical</strong> planet in the outer solar system,
+        proposed by Konstantin Batygin and Mike Brown (Caltech, 2016) to explain the
+        clustered orbits of distant trans-Neptunian objects. <strong>It has not been
+        directly observed.</strong>
+      </p>
+      <ul class="stats">
+        <li><span class="label">Estimated mass</span><span class="value">5–10 Earth masses</span></li>
+        <li><span class="label">Semi-major axis</span><span class="value">~400–800 AU</span></li>
+        <li><span class="label">Orbital period</span><span class="value">~10,000–20,000 years</span></li>
+        <li><span class="label">Eccentricity</span><span class="value">~0.2–0.5</span></li>
+        <li><span class="label">Inclination</span><span class="value">~15–25°</span></li>
+      </ul>
+    </section>
+
+    <section class="card" id="distance-card">
+      <h2>Distance from Earth</h2>
+      <p class="muted">
+        Planet Nine's predicted distance varies along its highly elliptical orbit
+        (perihelion ~300 AU, aphelion ~1200 AU). The median estimate of its current
+        position is shown below.
+      </p>
+      <div class="distance-display">
+        <div class="distance-big">
+          <span class="distance-number">~600</span>
+          <span class="distance-unit">AU</span>
+        </div>
+        <div class="distance-conversions">
+          <div class="conv-item">
+            <span class="label">In kilometers</span>
+            <span class="value">~90 billion km</span>
+          </div>
+          <div class="conv-item">
+            <span class="label">Light travel time</span>
+            <span class="value">~3.5 days</span>
+          </div>
+          <div class="conv-item">
+            <span class="label">vs. Neptune (30 AU)</span>
+            <span class="value">~20× farther</span>
+          </div>
+          <div class="conv-item">
+            <span class="label">vs. Earth–Sun</span>
+            <span class="value">~600× farther</span>
+          </div>
+          <div class="conv-item highlight-close">
+            <span class="label">Closest possible (perihelion)</span>
+            <span class="value">~300 AU</span>
+            <span class="sub">~45 billion km · ~1.7 light-days</span>
+            <span class="sub">Last occurred: ~5500 BCE (±2500 yr)</span>
+          </div>
+          <div class="conv-item">
+            <span class="label">Farthest (aphelion)</span>
+            <span class="value">~1200 AU</span>
+            <span class="sub">~180 billion km · ~7 light-days</span>
+          </div>
+        </div>
+      </div>
+      <div class="solar-map">
+        <svg viewBox="0 0 600 440" xmlns="http://www.w3.org/2000/svg" aria-label="Top-down view of the solar system showing Planet Nine's predicted orbit relative to the known planets">
+          <rect width="600" height="440" fill="#04060f"/>
+          <!-- background stars -->
+          <g fill="#ffffff" opacity="0.5">
+            <circle cx="30" cy="40" r="0.8"/>
+            <circle cx="120" cy="30" r="1"/>
+            <circle cx="220" cy="60" r="0.7"/>
+            <circle cx="320" cy="20" r="1.1"/>
+            <circle cx="420" cy="50" r="0.8"/>
+            <circle cx="520" cy="35" r="0.9"/>
+            <circle cx="570" cy="90" r="0.7"/>
+            <circle cx="80" cy="380" r="0.9"/>
+            <circle cx="180" cy="410" r="0.8"/>
+            <circle cx="380" cy="400" r="0.7"/>
+            <circle cx="480" cy="380" r="1"/>
+            <circle cx="560" cy="410" r="0.8"/>
+            <circle cx="20" cy="220" r="0.9"/>
+            <circle cx="580" cy="240" r="0.8"/>
+          </g>
+
+          <!-- Orbital rings (log-scaled radii, centered at 300,220) -->
+          <!-- Inner planets (Earth, Mars) — small ring near center -->
+          <ellipse cx="300" cy="220" rx="15" ry="15" fill="none" stroke="#3a5fa8" stroke-width="0.5" opacity="0.6"/>
+          <ellipse cx="300" cy="220" rx="22" ry="22" fill="none" stroke="#3a5fa8" stroke-width="0.5" opacity="0.5"/>
+          <!-- Jupiter -->
+          <ellipse cx="300" cy="220" rx="45" ry="45" fill="none" stroke="#3a5fa8" stroke-width="0.6" opacity="0.6"/>
+          <!-- Saturn -->
+          <ellipse cx="300" cy="220" rx="65" ry="65" fill="none" stroke="#3a5fa8" stroke-width="0.6" opacity="0.6"/>
+          <!-- Uranus -->
+          <ellipse cx="300" cy="220" rx="90" ry="90" fill="none" stroke="#3a5fa8" stroke-width="0.6" opacity="0.6"/>
+          <!-- Neptune -->
+          <ellipse cx="300" cy="220" rx="110" ry="110" fill="none" stroke="#3a5fa8" stroke-width="0.6" opacity="0.6"/>
+          <!-- Kuiper belt (40-50 AU) -->
+          <ellipse cx="300" cy="220" rx="120" ry="120" fill="none" stroke="#6a9cff" stroke-width="0.5" stroke-dasharray="2 3" opacity="0.4"/>
+
+          <!-- Planet Nine predicted orbit (highly elliptical, offset center) -->
+          <ellipse cx="240" cy="220" rx="200" ry="155" fill="none" stroke="#ffb86a" stroke-width="1.2" stroke-dasharray="5 4" opacity="0.85"/>
+
+          <!-- Sun at center -->
+          <circle cx="300" cy="220" r="6" fill="#ffd84d"/>
+          <circle cx="300" cy="220" r="10" fill="#ffd84d" opacity="0.25"/>
+
+          <!-- Earth marker -->
+          <circle cx="315" cy="220" r="2.5" fill="#6a9cff"/>
+          <line x1="315" y1="220" x2="345" y2="180" stroke="#6a9cff" stroke-width="0.5" opacity="0.6"/>
+          <text x="348" y="178" fill="#6a9cff" font-size="10" font-family="ui-monospace, monospace">Earth (1 AU)</text>
+
+          <!-- Jupiter marker -->
+          <circle cx="345" cy="220" r="3" fill="#d4a574"/>
+          <line x1="345" y1="220" x2="375" y2="260" stroke="#d4a574" stroke-width="0.5" opacity="0.6"/>
+          <text x="378" y="263" fill="#d4a574" font-size="10" font-family="ui-monospace, monospace">Jupiter (5 AU)</text>
+
+          <!-- Neptune marker -->
+          <circle cx="410" cy="220" r="3" fill="#5a8cff"/>
+          <line x1="410" y1="220" x2="440" y2="195" stroke="#5a8cff" stroke-width="0.5" opacity="0.6"/>
+          <text x="443" y="198" fill="#5a8cff" font-size="10" font-family="ui-monospace, monospace">Neptune (30 AU)</text>
+
+          <!-- Planet Nine marker — perihelion (closest approach to Earth/Sun) -->
+          <circle cx="440" cy="220" r="4" fill="#5dffa8"/>
+          <circle cx="440" cy="220" r="8" fill="#5dffa8" opacity="0.25"/>
+          <line x1="440" y1="220" x2="475" y2="280" stroke="#5dffa8" stroke-width="0.5" opacity="0.7"/>
+          <text x="478" y="283" fill="#5dffa8" font-size="10" font-family="ui-monospace, monospace" font-weight="bold">closest to Earth</text>
+          <text x="478" y="296" fill="#5dffa8" font-size="9" font-family="ui-monospace, monospace">~300 AU (perihelion)</text>
+          <text x="478" y="309" fill="#5dffa8" font-size="9" font-family="ui-monospace, monospace" opacity="0.85">last ~5500 BCE</text>
+
+          <!-- Planet Nine marker — position ~10,000 years ago (upper-left of orbit) -->
+          <circle cx="90" cy="105" r="4" fill="none" stroke="#a070ff" stroke-width="1.5"/>
+          <circle cx="90" cy="105" r="7" fill="#a070ff" opacity="0.2"/>
+          <line x1="90" y1="105" x2="135" y2="55" stroke="#a070ff" stroke-width="0.5" opacity="0.7"/>
+          <text x="138" y="53" fill="#a070ff" font-size="10" font-family="ui-monospace, monospace" font-weight="bold">10,000 yr ago</text>
+          <text x="138" y="66" fill="#a070ff" font-size="9" font-family="ui-monospace, monospace" opacity="0.85">~700–900 AU</text>
+
+          <!-- Dashed motion-direction arc from old position toward current -->
+          <path d="M 90 105 Q 50 165 40 220" fill="none" stroke="#a070ff" stroke-width="0.8" stroke-dasharray="2 3" opacity="0.55"/>
+
+          <!-- Planet Nine marker (current predicted position, near aphelion) -->
+          <circle cx="40" cy="220" r="5" fill="#ffb86a"/>
+          <circle cx="40" cy="220" r="9" fill="#ffb86a" opacity="0.3"/>
+          <line x1="40" y1="220" x2="70" y2="280" stroke="#ffb86a" stroke-width="0.5" opacity="0.7"/>
+          <text x="73" y="283" fill="#ffb86a" font-size="11" font-family="ui-monospace, monospace" font-weight="bold">Planet 9 (today)</text>
+          <text x="73" y="297" fill="#ffb86a" font-size="9" font-family="ui-monospace, monospace">~600 AU</text>
+
+          <!-- Orbit label -->
+          <text x="200" y="80" fill="#ffb86a" font-size="9" font-family="ui-monospace, monospace" opacity="0.8">predicted P9 orbit</text>
+          <text x="200" y="92" fill="#ffb86a" font-size="9" font-family="ui-monospace, monospace" opacity="0.8">(300–1200 AU)</text>
+
+          <!-- Scale note -->
+          <text x="300" y="425" text-anchor="middle" fill="#666" font-size="9" font-family="ui-monospace, monospace">
+            Distances logarithmically scaled for visibility — not to linear scale
+          </text>
+        </svg>
+        <p class="caption">
+          Top-down view. Inner planet orbits are compressed near the Sun; Planet Nine's
+          predicted orbit is the dashed orange ellipse, with the marker showing its
+          estimated current position near aphelion (the far end of its orbit).
+        </p>
+      </div>
+    </section>
+
+    <section class="card" id="location-card">
+      <h2>Probable Sky Location</h2>
+      <p class="muted">
+        Based on Batygin &amp; Brown's predicted orbit. The current best-guess search region
+        for the aphelion (where P9 is most likely to be found, since it spends most of its
+        orbit there) is shown below.
+      </p>
+      <div class="location-grid">
+        <div class="location-item">
+          <span class="label">Predicted RA range</span>
+          <span class="value">~2h to 5h</span>
+          <span class="sub">(roughly 30° to 75°)</span>
+        </div>
+        <div class="location-item">
+          <span class="label">Predicted Dec range</span>
+          <span class="value">~−10° to +20°</span>
+        </div>
+        <div class="location-item">
+          <span class="label">Constellation region</span>
+          <span class="value">Taurus / Orion / Cetus border</span>
+        </div>
+        <div class="location-item">
+          <span class="label">Estimated distance</span>
+          <span class="value">~500–700 AU</span>
+        </div>
+      </div>
+      <div class="sky-map">
+        <svg viewBox="0 0 400 220" xmlns="http://www.w3.org/2000/svg" aria-label="Sky map showing Planet Nine search region">
+          <rect width="400" height="220" fill="#04060f"/>
+          <!-- background stars -->
+          <g fill="#ffffff" opacity="0.7">
+            <circle cx="40" cy="30" r="1"/>
+            <circle cx="80" cy="60" r="0.8"/>
+            <circle cx="130" cy="20" r="1.2"/>
+            <circle cx="170" cy="90" r="0.7"/>
+            <circle cx="220" cy="40" r="1"/>
+            <circle cx="260" cy="110" r="0.9"/>
+            <circle cx="300" cy="50" r="1.3"/>
+            <circle cx="350" cy="80" r="0.7"/>
+            <circle cx="60" cy="150" r="0.9"/>
+            <circle cx="120" cy="180" r="0.8"/>
+            <circle cx="200" cy="170" r="1.1"/>
+            <circle cx="280" cy="190" r="0.7"/>
+            <circle cx="340" cy="160" r="1"/>
+            <circle cx="20" cy="100" r="0.8"/>
+            <circle cx="380" cy="120" r="0.9"/>
+          </g>
+          <!-- search ellipse (probable region) -->
+          <ellipse cx="200" cy="110" rx="110" ry="40" fill="rgba(106, 156, 255, 0.15)" stroke="#6a9cff" stroke-width="1.5" stroke-dasharray="4 3"/>
+          <text x="200" y="115" text-anchor="middle" fill="#9fb8ff" font-size="11" font-family="monospace">probable region</text>
+          <!-- axis labels -->
+          <text x="10" y="215" fill="#666" font-size="9" font-family="monospace">RA 5h</text>
+          <text x="370" y="215" fill="#666" font-size="9" font-family="monospace">RA 2h</text>
+          <text x="10" y="15" fill="#666" font-size="9" font-family="monospace">+20°</text>
+          <text x="10" y="205" fill="#666" font-size="9" font-family="monospace">−10°</text>
+        </svg>
+        <p class="caption">
+          Approximate predicted aphelion region. The actual orbit is highly uncertain;
+          surveys like Pan-STARRS, the Zwicky Transient Facility, and Vera C. Rubin
+          Observatory (LSST) are searching this region.
+        </p>
+      </div>
+    </section>
+
+    <section class="card" id="papers-card">
+      <h2>Recent Research</h2>
+      <p class="muted">Latest preprints mentioning Planet Nine from arXiv.</p>
+      <div id="papers-list" class="papers-list">
+        <p class="loading">Loading recent papers…</p>
+      </div>
+      <p class="data-source">Source: <a href="https://arxiv.org/" target="_blank" rel="noopener">arXiv.org</a></p>
+    </section>
+
+    <section class="card" id="news-card">
+      <h2>News &amp; Discussion</h2>
+      <p class="muted">Search the latest coverage:</p>
+      <div class="news-links">
+        <a class="news-link" target="_blank" rel="noopener"
+           href="https://news.google.com/search?q=%22Planet+Nine%22+OR+%22Planet+9%22&hl=en">
+          Google News: Planet Nine
+        </a>
+        <a class="news-link" target="_blank" rel="noopener"
+           href="https://www.reddit.com/r/space/search/?q=planet+nine&sort=new&restrict_sr=on">
+          Reddit r/space: planet nine
+        </a>
+        <a class="news-link" target="_blank" rel="noopener"
+           href="https://en.wikipedia.org/wiki/Planet_Nine">
+          Wikipedia: Planet Nine
+        </a>
+        <a class="news-link" target="_blank" rel="noopener"
+           href="https://www.caltech.edu/about/news/caltech-researchers-find-evidence-real-ninth-planet-49523">
+          Caltech: Batygin &amp; Brown announcement
+        </a>
+        <a class="news-link" target="_blank" rel="noopener"
+           href="https://arxiv.org/search/?searchtype=all&query=Planet+Nine">
+          arXiv search: Planet Nine
+        </a>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <p>
+      Built as a daily tracker. Data sources: arXiv API, Batygin &amp; Brown (2016, 2019, 2021) published orbital predictions.
+      Last refreshed: <span id="last-refreshed"></span>
+    </p>
+  </footer>
+
+  <script src="app.js"></script>
+</body>
+</html>
