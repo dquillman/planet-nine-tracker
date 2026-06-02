@@ -2,11 +2,29 @@
 <feed xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:arxiv="http://arxiv.org/schemas/atom" xmlns="http://www.w3.org/2005/Atom">
   <id>https://arxiv.org/api/JXYEi+e3vMqJpQcMEZC4mDOnTZE</id>
   <title>arXiv Query: search_query=all:"Planet Nine" OR all:"Planet 9"&amp;id_list=&amp;start=0&amp;max_results=10</title>
-  <updated>2026-05-31T08:35:03Z</updated>
+  <updated>2026-06-02T10:08:07Z</updated>
   <link href="https://arxiv.org/api/query?search_query=all:%22Planet+Nine%22+OR+all:%22Planet+9%22&amp;start=0&amp;max_results=10&amp;id_list=" type="application/atom+xml"/>
   <opensearch:itemsPerPage>10</opensearch:itemsPerPage>
-  <opensearch:totalResults>157</opensearch:totalResults>
+  <opensearch:totalResults>158</opensearch:totalResults>
   <opensearch:startIndex>0</opensearch:startIndex>
+  <entry>
+    <id>http://arxiv.org/abs/2606.00612v1</id>
+    <title>The Mass, Orbit and Location of Planet Nine Derived from Classical Astrophysics</title>
+    <updated>2026-05-30T08:25:53Z</updated>
+    <link href="https://arxiv.org/abs/2606.00612v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2606.00612v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Our models are based on the planet's presumed influence on the orbits of 12 TNOs: the original 6 analyzed by the CalTech astronomers and an additional 6 selected by the authors using similar although broader criteria. An additional goal of our approach is to make the rationale behind each claim regarding Planet X mathematically visible and verifiable to readers, who can use the models for further analysis with their own TNO data sets should they choose, which is rarely an option with simulations. Using the math models described herein we found that each orbit of the 12 asteroids (12As) lies close to the same plane, presumably the planet's orbital plane. This geometric near-symmetry was found to uniquely determine the planet's orbital elements longitude of the ascending node at +107.7 degree and inclination of +19.5 degree. The planet's argument of perihelion is 307.5 degree. The planet's off axis Lagrange points L4 and L5 were found to play a key role in producing this cluster. At least 4 and possibly 5 of the 12As appear to be in mean motion resonance with the planet, which led to an estimate of the orbit's semi major axis length of a 510 AU and a period of 11512 years. The eccentricity for the planet is 0.39 implying a perihelion of 311 AU. The estimation for the planet's location looks like this: the first two locations estimated to be in the lower region of Taurus, the latter in the upper region of Libra. A wide orbital ellipse that completely surrounds half the asteroids' orbits nearest to their perihelia. The estimated planet's mass is 7.1 Earth masses.</summary>
+    <category term="astro-ph.EP" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2026-05-30T08:25:53Z</published>
+    <arxiv:comment>19 pages,9 figures</arxiv:comment>
+    <arxiv:primary_category term="astro-ph.EP"/>
+    <author>
+      <name>Mattia Galiazzo</name>
+    </author>
+    <author>
+      <name>Robert Finch</name>
+    </author>
+  </entry>
   <entry>
     <id>http://arxiv.org/abs/2604.12787v1</id>
     <title>Dark matter heating of Planet 9, and its observational implications</title>
@@ -522,36 +540,5 @@
     <author>
       <name>Jacob A. Kurlander</name>
     </author>
-  </entry>
-  <entry>
-    <id>http://arxiv.org/abs/2505.24093v1</id>
-    <title>Very-wide-orbit planets from dynamical instabilities during the stellar birth cluster phase</title>
-    <updated>2025-05-30T00:42:50Z</updated>
-    <link href="https://arxiv.org/abs/2505.24093v1" rel="alternate" type="text/html"/>
-    <link href="https://arxiv.org/pdf/2505.24093v1" rel="related" type="application/pdf" title="pdf"/>
-    <summary>Gas giant planets have been detected on eccentric orbits several hundreds of astronomical units in size around other stars. It has been proposed that even the Sun hosts a wide-orbit planet of 5-10 Earth masses, often called Planet Nine, which influences the dynamics of distant Trans-Neptunian objects. However, the formation mechanism of such planets remains uncertain. Here we use numerical simulations to show that very wide-orbit planets are a natural byproduct of dynamical instabilities that occur in planetary systems while their host stars are still embedded in natal stellar clusters. A planet is first brought to an eccentric orbit with an apoastron of several hundred au by repeated gravitational scattering by other planets, then perturbations from nearby stellar flybys stabilise the orbit by decoupling the planet from the interaction with the inner system. In our Solar System, the two main events likely conducive to planetary scattering were the growth of Uranus and Neptune, and the giant planets instability. We estimate a 5-10% likelihood of creating a very wide-orbit planet if either happened while the Sun was still in its birth cluster, rising to 40% if both were. In our simulated exoplanetary systems, the trapping efficiency is 1-5\%. Our results imply that planets on wide, eccentric orbits occur at least $10^{-3}$ per star.</summary>
-    <category term="astro-ph.EP" scheme="http://arxiv.org/schemas/atom"/>
-    <category term="astro-ph.GA" scheme="http://arxiv.org/schemas/atom"/>
-    <category term="astro-ph.SR" scheme="http://arxiv.org/schemas/atom"/>
-    <published>2025-05-30T00:42:50Z</published>
-    <arxiv:comment>Published in Nature Astronomy on May 27, 2025. Authors' version including Methods and Supplementary Information. Associated animations available at https://youtu.be/GLPJQIGE8xg and https://youtu.be/Sr_0X_JaaZE</arxiv:comment>
-    <arxiv:primary_category term="astro-ph.EP"/>
-    <author>
-      <name>André Izidoro</name>
-    </author>
-    <author>
-      <name>Sean N. Raymond</name>
-    </author>
-    <author>
-      <name>Nathan A. Kaib</name>
-    </author>
-    <author>
-      <name>Alessandro Morbidelli</name>
-    </author>
-    <author>
-      <name>Andrea Isella</name>
-    </author>
-    <arxiv:doi>10.1038/s41550-025-02556-0</arxiv:doi>
-    <link rel="related" href="https://doi.org/10.1038/s41550-025-02556-0" title="doi"/>
   </entry>
 </feed>
