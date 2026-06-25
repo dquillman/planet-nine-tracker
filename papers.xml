@@ -2,11 +2,29 @@
 <feed xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:arxiv="http://arxiv.org/schemas/atom" xmlns="http://www.w3.org/2005/Atom">
   <id>https://arxiv.org/api/JXYEi+e3vMqJpQcMEZC4mDOnTZE</id>
   <title>arXiv Query: search_query=all:"Planet Nine" OR all:"Planet 9"&amp;id_list=&amp;start=0&amp;max_results=10</title>
-  <updated>2026-06-24T08:53:56Z</updated>
+  <updated>2026-06-25T08:47:59Z</updated>
   <link href="https://arxiv.org/api/query?search_query=all:%22Planet+Nine%22+OR+all:%22Planet+9%22&amp;start=0&amp;max_results=10&amp;id_list=" type="application/atom+xml"/>
   <opensearch:itemsPerPage>10</opensearch:itemsPerPage>
-  <opensearch:totalResults>158</opensearch:totalResults>
+  <opensearch:totalResults>159</opensearch:totalResults>
   <opensearch:startIndex>0</opensearch:startIndex>
+  <entry>
+    <id>http://arxiv.org/abs/2606.25190v1</id>
+    <title>A Solar-System Window for Hidden Stellar Companions</title>
+    <updated>2026-06-23T21:34:09Z</updated>
+    <link href="https://arxiv.org/abs/2606.25190v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2606.25190v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Could the closest stellar or substellar object to the Sun be not an ordinary star at parsec distance, but a hidden-brane companion at hundreds or thousands of astronomical units? We do not perform a new Solar-System dynamics analysis; instead we construct a phenomenological mass-distance map using an illustrative ephemeris tidal envelope calibrated to Planet-Nine-like constraints. A smooth dark matter halo cannot supply such an object: the local density contains only a sub-Pluto mass within 1000 AU. A nearby hidden-brane companion must therefore be a structured, gravitationally bound object rather than a typical halo draw. The illustrative envelope still allows Earth to sub-Saturn masses at 300-1000 AU, rising to Jovian mass near 2000 AU. In a simple QCD-scaled hidden sector with a confinement scale about ten times larger than ordinary QCD, the minimum hidden stellar mass overlaps the upper part of this window, providing a benchmark for a genuine hidden-sector star: bright in dark photons, electromagnetically dark to us, and visible only through gravity. We also derive an Earth-based source-strength proxy for brane-to-brane channels and show that, along the ephemeris envelope, it grows as the square of the companion distance: the largest received source scale comes from the most massive companion still allowed, not the nearest one. A probe sent to the companion's gravitational projection would reduce the ordinary source-receiver separation by two to three orders of magnitude relative to Earth-based operation. This is not a detection forecast; the excitation of KK modes, the compact-direction brane-to-brane transfer factor, and the detector response remain model-dependent.</summary>
+    <category term="hep-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="astro-ph.CO" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="astro-ph.EP" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="hep-th" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2026-06-23T21:34:09Z</published>
+    <arxiv:comment>25 pages, 3 figures</arxiv:comment>
+    <arxiv:primary_category term="hep-ph"/>
+    <author>
+      <name>Karim Benakli</name>
+    </author>
+  </entry>
   <entry>
     <id>http://arxiv.org/abs/2606.00612v1</id>
     <title>The Mass, Orbit and Location of Planet Nine Derived from Classical Astrophysics</title>
@@ -515,30 +533,5 @@
     </author>
     <arxiv:doi>10.1017/pasa.2025.10037</arxiv:doi>
     <link rel="related" href="https://doi.org/10.1017/pasa.2025.10037" title="doi"/>
-  </entry>
-  <entry>
-    <id>http://arxiv.org/abs/2506.02144v1</id>
-    <title>A Pan-STARRS Search for Distant Planets: Part 1</title>
-    <updated>2025-06-02T18:13:46Z</updated>
-    <link href="https://arxiv.org/abs/2506.02144v1" rel="alternate" type="text/html"/>
-    <link href="https://arxiv.org/pdf/2506.02144v1" rel="related" type="application/pdf" title="pdf"/>
-    <summary>We present a search for distant planets in Pan-STARRS1. We calibrated our search by injecting an isotropic control population of synthetic detections into Pan-STARRS1 source catalogs, providing a high-fidelity alternative to injecting synthetic sources at the image level. We found that our method is sensitive to a wide range of distances, as well as all rates and directions of motion. We identified 692 solar system objects (109 of which are not yet listed in the Minor Planet Center's database), including 642 TNOs, 23 of which are dwarf planets. By raw number of detections, this makes our search the third most productive Kuiper Belt survey to date, in spite of the fact that we did not explicitly search for objects closer than 80 au. Although we did not find Planet Nine or any other planetary objects, we were able to show that the remaining parameter space for Planet Nine is highly concentrated in the galactic plane.</summary>
-    <category term="astro-ph.EP" scheme="http://arxiv.org/schemas/atom"/>
-    <category term="astro-ph.IM" scheme="http://arxiv.org/schemas/atom"/>
-    <published>2025-06-02T18:13:46Z</published>
-    <arxiv:comment>23 pages, 9 figures. PSJ accepted 2025 May 23</arxiv:comment>
-    <arxiv:primary_category term="astro-ph.EP"/>
-    <author>
-      <name>Matthew J. Holman</name>
-    </author>
-    <author>
-      <name>Kevin J. Napier</name>
-    </author>
-    <author>
-      <name>Matthew J. Payne</name>
-    </author>
-    <author>
-      <name>Jacob A. Kurlander</name>
-    </author>
   </entry>
 </feed>
