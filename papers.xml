@@ -2,11 +2,41 @@
 <feed xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:arxiv="http://arxiv.org/schemas/atom" xmlns="http://www.w3.org/2005/Atom">
   <id>https://arxiv.org/api/JXYEi+e3vMqJpQcMEZC4mDOnTZE</id>
   <title>arXiv Query: search_query=all:"Planet Nine" OR all:"Planet 9"&amp;id_list=&amp;start=0&amp;max_results=10</title>
-  <updated>2026-07-19T08:00:17Z</updated>
+  <updated>2026-07-20T08:41:38Z</updated>
   <link href="https://arxiv.org/api/query?search_query=all:%22Planet+Nine%22+OR+all:%22Planet+9%22&amp;start=0&amp;max_results=10&amp;id_list=" type="application/atom+xml"/>
   <opensearch:itemsPerPage>10</opensearch:itemsPerPage>
-  <opensearch:totalResults>159</opensearch:totalResults>
+  <opensearch:totalResults>160</opensearch:totalResults>
   <opensearch:startIndex>0</opensearch:startIndex>
+  <entry>
+    <id>http://arxiv.org/abs/2607.15646v1</id>
+    <title>Distant TNO Inclinations as a Constraint on Primordial Cluster Perturbations in the Presence of Planet Nine</title>
+    <updated>2026-07-17T05:42:11Z</updated>
+    <link href="https://arxiv.org/abs/2607.15646v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2607.15646v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>The Sun was almost certainly born in a stellar cluster, implying some degree of external forcing from neighboring stars during the Solar System's infancy. Published estimates of the strongest relevant stellar encounter, however, span a broad range, from relatively gentle perturbations to violently disruptive flybys. The modest inclination dispersion of the distant trans-Neptunian population has previously been used to argue that strong primordial encounters were unlikely and that the outer Solar System was not violently stirred at birth. In this work, we independently examine this constraint and ask whether this conclusion holds in the presence of Planet Nine. Because Planet Nine can reshape the distant trans-Neptunian population over gigayear timescales, the extent to which the present-day inclination distribution preserves a direct record of primordial cluster excitation is a priori unclear. To address this question, we compare long-term N-body integrations in which distant test particles begin either in strongly cluster-perturbed configurations or in comparatively quiescent ones, and are then evolved under the influence of the known giant planets, the Galactic tide, the effects of passing stars, and Planet Nine. We find that Planet Nine does not transform a highly excited primordial population into one resembling the observed low-inclination distant sample. Instead, comparisons between the simulated and the observed distant TNO populations indicate that the observed distant TNOs are most consistent with a relatively mildly perturbed birth environment, even in the presence of Planet Nine. If this comparatively low inclination dispersion is confirmed to be an intrinsic feature of the distant TNO population, rather than an artifact of observational bias, it constitutes a robust constraint on the severity of primordial cluster perturbations.</summary>
+    <category term="astro-ph.EP" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2026-07-17T05:42:11Z</published>
+    <arxiv:comment>10 pages, 4 figures</arxiv:comment>
+    <arxiv:primary_category term="astro-ph.EP"/>
+    <arxiv:journal_ref>Icarus 460 (2026) 117248</arxiv:journal_ref>
+    <author>
+      <name>Avni Bansal</name>
+    </author>
+    <author>
+      <name>Ian Brunton</name>
+    </author>
+    <author>
+      <name>Konstantin Batygin</name>
+    </author>
+    <author>
+      <name>Gabriele Pichierri</name>
+    </author>
+    <author>
+      <name>David Nesvorný</name>
+    </author>
+    <arxiv:doi>10.1016/j.icarus.2026.117248</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1016/j.icarus.2026.117248" title="doi"/>
+  </entry>
   <entry>
     <id>http://arxiv.org/abs/2606.25190v1</id>
     <title>A Solar-System Window for Hidden Stellar Companions</title>
@@ -487,51 +517,5 @@
     <author>
       <name>Terry L. White</name>
     </author>
-  </entry>
-  <entry>
-    <id>http://arxiv.org/abs/2506.12854v1</id>
-    <title>A Far-Infrared Search for Planet Nine Using AKARI All-Sky Survey</title>
-    <updated>2025-06-15T14:01:04Z</updated>
-    <link href="https://arxiv.org/abs/2506.12854v1" rel="alternate" type="text/html"/>
-    <link href="https://arxiv.org/pdf/2506.12854v1" rel="related" type="application/pdf" title="pdf"/>
-    <summary>An unusual orbital element clustering of Kuiper belt objects (KBOs) has been observed. The most promising dynamic solution is the presence of a giant planet in the outer Solar system, Planet Nine. However, due to its extreme distance, intensive searches in optical have not been successful. We aim to find Planet Nine in the far-infrared, where it has the peak of the black body radiation, using the most sensitive all-sky far-infrared survey to date, AKARI. In contrast to optical searches, where the energy of reflected sunlight decreases by $d^{4}$, thermal radiation in the infrared decreases with the square of the heliocentric distance $d^{2}$. We search for moving objects in the AKARI Single Scan Detection List. We select sources from a promising region suggested by an N-body simulation from Millholland and Laughlin 2017: $30^{\circ}&lt;$ R.A. $&lt;50^{\circ}$ and $-20^{\circ}&lt;$ Dec. $&lt;20^{\circ}$. Known sources are excluded by cross-matching AKARI sources with 9 optical and infrared catalogues. Furthermore, we select sources with small background strength to avoid sources in the cirrus. Since Planet Nine is stationary in a timescale of hours but moves on a monthly scale, our primary strategy is to select slowly moving objects that are stationary in 24 hours but not in six months, using multiple single scans by AKARI. The selected slowly moving AKARI sources are scrutinised for potential contamination from cosmic rays. Our analysis reveals two possible Planet Nine candidates whose positions and flux are within the theoretical prediction ranges. These candidates warrant further investigation through follow-up observations to confirm the existence and properties of Planet Nine.</summary>
-    <category term="astro-ph.EP" scheme="http://arxiv.org/schemas/atom"/>
-    <category term="astro-ph.IM" scheme="http://arxiv.org/schemas/atom"/>
-    <category term="astro-ph.SR" scheme="http://arxiv.org/schemas/atom"/>
-    <published>2025-06-15T14:01:04Z</published>
-    <arxiv:comment>12 pages, 8 figures, 2 tables. Accepted for publication in Publications of the Astronomical Society of Australia. For more information, see https://docs.google.com/document/d/1WUfVFAe-cWPEq4YJVCMagR3PaN_dudgWsGs9oZnVvQc/edit?usp=sharing</arxiv:comment>
-    <arxiv:primary_category term="astro-ph.EP"/>
-    <author>
-      <name>Amos Y. -A. Chen</name>
-    </author>
-    <author>
-      <name>Tomotsugu Goto</name>
-    </author>
-    <author>
-      <name>Issei Yamamura</name>
-    </author>
-    <author>
-      <name>Takao Nakagawa</name>
-    </author>
-    <author>
-      <name>Cossas K. -W. Wu</name>
-    </author>
-    <author>
-      <name>Terry Long Phan</name>
-    </author>
-    <author>
-      <name>Tetsuya Hashimoto</name>
-    </author>
-    <author>
-      <name>Yuri Uno</name>
-    </author>
-    <author>
-      <name>Simon C. -C. Ho</name>
-    </author>
-    <author>
-      <name>Seong Jin Kim</name>
-    </author>
-    <arxiv:doi>10.1017/pasa.2025.10037</arxiv:doi>
-    <link rel="related" href="https://doi.org/10.1017/pasa.2025.10037" title="doi"/>
   </entry>
 </feed>
