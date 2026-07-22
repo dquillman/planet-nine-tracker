@@ -2,7 +2,7 @@
 <feed xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:arxiv="http://arxiv.org/schemas/atom" xmlns="http://www.w3.org/2005/Atom">
   <id>https://arxiv.org/api/JXYEi+e3vMqJpQcMEZC4mDOnTZE</id>
   <title>arXiv Query: search_query=all:"Planet Nine" OR all:"Planet 9"&amp;id_list=&amp;start=0&amp;max_results=10</title>
-  <updated>2026-07-21T08:08:51Z</updated>
+  <updated>2026-07-22T08:09:03Z</updated>
   <link href="https://arxiv.org/api/query?search_query=all:%22Planet+Nine%22+OR+all:%22Planet+9%22&amp;start=0&amp;max_results=10&amp;id_list=" type="application/atom+xml"/>
   <opensearch:itemsPerPage>10</opensearch:itemsPerPage>
   <opensearch:totalResults>160</opensearch:totalResults>
@@ -428,8 +428,8 @@
     <author>
       <name>Lorenzo Iorio</name>
     </author>
-    <arxiv:doi>10.3390/universe1010000</arxiv:doi>
-    <link rel="related" href="https://doi.org/10.3390/universe1010000" title="doi"/>
+    <arxiv:doi>10.3390/universe12020042</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.3390/universe12020042" title="doi"/>
   </entry>
   <entry>
     <id>http://arxiv.org/abs/2512.17494v1</id>
