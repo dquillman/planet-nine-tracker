@@ -2,11 +2,78 @@
 <feed xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:arxiv="http://arxiv.org/schemas/atom" xmlns="http://www.w3.org/2005/Atom">
   <id>https://arxiv.org/api/JXYEi+e3vMqJpQcMEZC4mDOnTZE</id>
   <title>arXiv Query: search_query=all:"Planet Nine" OR all:"Planet 9"&amp;id_list=&amp;start=0&amp;max_results=10</title>
-  <updated>2026-08-03T09:22:48Z</updated>
+  <updated>2026-08-04T08:22:19Z</updated>
   <link href="https://arxiv.org/api/query?search_query=all:%22Planet+Nine%22+OR+all:%22Planet+9%22&amp;start=0&amp;max_results=10&amp;id_list=" type="application/atom+xml"/>
   <opensearch:itemsPerPage>10</opensearch:itemsPerPage>
-  <opensearch:totalResults>160</opensearch:totalResults>
+  <opensearch:totalResults>161</opensearch:totalResults>
   <opensearch:startIndex>0</opensearch:startIndex>
+  <entry>
+    <id>http://arxiv.org/abs/2608.00046v1</id>
+    <title>SMDET-1: a Nearby Y Dwarf Candidate</title>
+    <updated>2026-07-24T18:01:15Z</updated>
+    <link href="https://arxiv.org/abs/2608.00046v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2608.00046v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>We present the discovery of SMDET-1, a red, fast-moving object ($μ\approx 1.3$"/yr) identified in time-resolved unWISE coadds using a pixel-level deep learning methodology called SMDET. Despite being relatively bright at 4.5 microns compared to many other recent WISE-based brown dwarf discoveries ($m_{[4.5]} \approx 14.6$ mag Vega), SMDET-1 had remained overlooked due to its location in a very crowded Galactic plane field ($b \approx 2.25^{\circ}$) and contamination from brighter background objects. SMDET-1 is also serendipitously detected at 4.5 microns in late-2012 Spitzer Deep GLIMPSE survey imaging. SMDET-1 is undetected in UKIDSS and Palomar/WIRC near-infrared imaging, with the strongest constraint on its temperature ($T_{\rm eff}$ &lt; 391 K) arising from its Deep GLIMPSE color limit of $m_{[3.6]} - m_{[4.5]} &gt; 2.81$ mag, which also implies a very nearby photometric distance &lt; 7.4 pc. The Spitzer color bound corresponds to a Y dwarf phototype. SMDET-1 illustrates the importance of continued searches for nearby brown dwarfs within archival datasets like WISE and Spitzer, as well as the potential of pixel-level deep learning to discover astronomical moving objects that challenge traditional data analysis approaches.</summary>
+    <category term="astro-ph.SR" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="astro-ph.GA" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2026-07-24T18:01:15Z</published>
+    <arxiv:comment>accepted for publication in AJ</arxiv:comment>
+    <arxiv:primary_category term="astro-ph.SR"/>
+    <author>
+      <name>The Backyard Worlds</name>
+    </author>
+    <author>
+      <name> :</name>
+    </author>
+    <author>
+      <name>Planet 9 Collaboration</name>
+    </author>
+    <author>
+      <name> :</name>
+    </author>
+    <author>
+      <name>Aaron M. Meisner</name>
+    </author>
+    <author>
+      <name>Dan Caselden</name>
+    </author>
+    <author>
+      <name>Federico Marocco</name>
+    </author>
+    <author>
+      <name>J. Davy Kirkpatrick</name>
+    </author>
+    <author>
+      <name>Jonathan Gagné</name>
+    </author>
+    <author>
+      <name>Adam C. Schneider</name>
+    </author>
+    <author>
+      <name>Samuel A. Beiler</name>
+    </author>
+    <author>
+      <name>Sergio B. Fajardo-Acosta</name>
+    </author>
+    <author>
+      <name>Jacqueline K. Faherty</name>
+    </author>
+    <author>
+      <name>Stanimir A. Metchev</name>
+    </author>
+    <author>
+      <name>Sam Barber</name>
+    </author>
+    <author>
+      <name>Marc J. Kuchner</name>
+    </author>
+    <author>
+      <name>Thomas P. Bickle</name>
+    </author>
+    <author>
+      <name>Zafar Rustamkulov</name>
+    </author>
+  </entry>
   <entry>
     <id>http://arxiv.org/abs/2607.15646v1</id>
     <title>Distant TNO Inclinations as a Constraint on Primordial Cluster Perturbations in the Presence of Planet Nine</title>
@@ -498,24 +565,6 @@
     </author>
     <author>
       <name>Keita Iwabuchi</name>
-    </author>
-  </entry>
-  <entry>
-    <id>http://arxiv.org/abs/2507.22297v1</id>
-    <title>The Radius, Composition, Albedo, and Absolute Magnitude of Planet Nine Based on Exoplanets with Teq less than 600 K and the Planet Nine Reference Population 3.0</title>
-    <updated>2025-07-30T00:11:20Z</updated>
-    <link href="https://arxiv.org/abs/2507.22297v1" rel="alternate" type="text/html"/>
-    <link href="https://arxiv.org/pdf/2507.22297v1" rel="related" type="application/pdf" title="pdf"/>
-    <summary>Evidence suggests the existence of a large planet in the outer Solar System, Planet Nine, with a predicted mass of 6.6 +2.6 / -1.7 Earth masses (Brown et al., 2024). Based on mass radius composition models, planet formation theory, and confirmed exoplanets with low mass and radius uncertainty and equilibrium temperature less than 600 K, we determine the most likely composition for Planet Nine is a mini-Neptune with a radius in the range 2.0 to 2.6 Earth radii and a H-He envelope fraction in the range of 0.6 percent to 3.5 percent by mass. Using albedo estimates for a mini-Neptune extrapolated from V-band data for the Solar Systems giant planets gives albedo values for Planet Nine in the range of 0.47 to 0.33. Using the most likely orbit and aphelion estimates from the Planet Nine Reference Population 3.0, we estimate Planet Nines absolute magnitude in the range of -6.1 to -5.2 and apparent magnitude in the range of +21.9 to +22.7. Finally, we estimate that, if the hypothetical Planet Nine exists and is detected by upcoming surveys, it will have a resolvable disk using some higher resolution world class telescopes.</summary>
-    <category term="astro-ph.EP" scheme="http://arxiv.org/schemas/atom"/>
-    <published>2025-07-30T00:11:20Z</published>
-    <arxiv:comment>10 pages, 6 tables, 2 figures</arxiv:comment>
-    <arxiv:primary_category term="astro-ph.EP"/>
-    <author>
-      <name>David G. Russell</name>
-    </author>
-    <author>
-      <name>Terry L. White</name>
     </author>
   </entry>
 </feed>
