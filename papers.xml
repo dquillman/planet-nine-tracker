@@ -2,11 +2,37 @@
 <feed xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:arxiv="http://arxiv.org/schemas/atom" xmlns="http://www.w3.org/2005/Atom">
   <id>https://arxiv.org/api/JXYEi+e3vMqJpQcMEZC4mDOnTZE</id>
   <title>arXiv Query: search_query=all:"Planet Nine" OR all:"Planet 9"&amp;id_list=&amp;start=0&amp;max_results=10</title>
-  <updated>2026-09-23T10:29:22Z</updated>
+  <updated>2026-09-29T11:49:39Z</updated>
   <link href="https://arxiv.org/api/query?search_query=all:%22Planet+Nine%22+OR+all:%22Planet+9%22&amp;start=0&amp;max_results=10&amp;id_list=" type="application/atom+xml"/>
   <opensearch:itemsPerPage>10</opensearch:itemsPerPage>
-  <opensearch:totalResults>160</opensearch:totalResults>
+  <opensearch:totalResults>161</opensearch:totalResults>
   <opensearch:startIndex>0</opensearch:startIndex>
+  <entry>
+    <id>http://arxiv.org/abs/2609.29162v1</id>
+    <title>Binary-pulsar Timing: A 3D Solar-System Accelerometer and Unknown-Source Probe</title>
+    <updated>2026-09-24T07:36:00Z</updated>
+    <link href="https://arxiv.org/abs/2609.29162v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2609.29162v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>The acceleration of the Solar System barycenter (SSB) offers a unique precision probe of the local gravitational environment, enabling searches for otherwise invisible gravitating sources such as Planet Nine and nearby (primordial) black holes. Using the binary-pulsar timing measurements, we develop an analysis framework that combines the line-of-sight differential accelerations of 26 binary pulsars to jointly reconstruct the three-dimensional acceleration of the SSB and place directional upper limits. Across three smooth Galactic-potential baselines, the residual acceleration is consistent with zero. We obtain directional 95\% upper limits of $0.198$, $0.262$, and $0.693~μ\mathrm{as}\,\mathrm{yr}^{-1}$ over 50\%, 75\%, and all sampled directions, respectively. These limits are tighter by factors of 3.5, 3.6, and 1.6 than a matched Gaia EDR3 benchmark and improve previous pulsar constraints by more than an order of magnitude. We further extend the framework to the full SSB--pulsar two-endpoint response, enabling direct position-dependent mass constraints on unknown gravitational sources. A $10\,M_\odot$ object is excluded within 0.39, 0.34, and 0.21 pc over the same sky fractions. Our unknown-mass limits surpass the tidal-equivalent INPOP19a reference beyond 0.2 pc by about an order of magnitude over most of the sky at 1 pc.</summary>
+    <category term="astro-ph.GA" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="astro-ph.EP" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="astro-ph.HE" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2026-09-24T07:36:00Z</published>
+    <arxiv:comment>9 pages, 4 figures, 2 tables. Comments welcome</arxiv:comment>
+    <arxiv:primary_category term="astro-ph.GA"/>
+    <author>
+      <name>Zheng-Long Wang</name>
+    </author>
+    <author>
+      <name>Zi-Qing Xia</name>
+    </author>
+    <author>
+      <name>Bo Zhang</name>
+    </author>
+    <author>
+      <name>Yi-Zhong Fan</name>
+    </author>
+  </entry>
   <entry>
     <id>http://arxiv.org/abs/2607.15646v1</id>
     <title>Distant TNO Inclinations as a Constraint on Primordial Cluster Perturbations in the Presence of Planet Nine</title>
@@ -498,24 +524,6 @@
     </author>
     <author>
       <name>Keita Iwabuchi</name>
-    </author>
-  </entry>
-  <entry>
-    <id>http://arxiv.org/abs/2507.22297v1</id>
-    <title>The Radius, Composition, Albedo, and Absolute Magnitude of Planet Nine Based on Exoplanets with Teq less than 600 K and the Planet Nine Reference Population 3.0</title>
-    <updated>2025-07-30T00:11:20Z</updated>
-    <link href="https://arxiv.org/abs/2507.22297v1" rel="alternate" type="text/html"/>
-    <link href="https://arxiv.org/pdf/2507.22297v1" rel="related" type="application/pdf" title="pdf"/>
-    <summary>Evidence suggests the existence of a large planet in the outer Solar System, Planet Nine, with a predicted mass of 6.6 +2.6 / -1.7 Earth masses (Brown et al., 2024). Based on mass radius composition models, planet formation theory, and confirmed exoplanets with low mass and radius uncertainty and equilibrium temperature less than 600 K, we determine the most likely composition for Planet Nine is a mini-Neptune with a radius in the range 2.0 to 2.6 Earth radii and a H-He envelope fraction in the range of 0.6 percent to 3.5 percent by mass. Using albedo estimates for a mini-Neptune extrapolated from V-band data for the Solar Systems giant planets gives albedo values for Planet Nine in the range of 0.47 to 0.33. Using the most likely orbit and aphelion estimates from the Planet Nine Reference Population 3.0, we estimate Planet Nines absolute magnitude in the range of -6.1 to -5.2 and apparent magnitude in the range of +21.9 to +22.7. Finally, we estimate that, if the hypothetical Planet Nine exists and is detected by upcoming surveys, it will have a resolvable disk using some higher resolution world class telescopes.</summary>
-    <category term="astro-ph.EP" scheme="http://arxiv.org/schemas/atom"/>
-    <published>2025-07-30T00:11:20Z</published>
-    <arxiv:comment>10 pages, 6 tables, 2 figures</arxiv:comment>
-    <arxiv:primary_category term="astro-ph.EP"/>
-    <author>
-      <name>David G. Russell</name>
-    </author>
-    <author>
-      <name>Terry L. White</name>
     </author>
   </entry>
 </feed>
