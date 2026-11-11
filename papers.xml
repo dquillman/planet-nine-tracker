@@ -2,11 +2,27 @@
 <feed xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:arxiv="http://arxiv.org/schemas/atom" xmlns="http://www.w3.org/2005/Atom">
   <id>https://arxiv.org/api/JXYEi+e3vMqJpQcMEZC4mDOnTZE</id>
   <title>arXiv Query: search_query=all:"Planet Nine" OR all:"Planet 9"&amp;id_list=&amp;start=0&amp;max_results=10</title>
-  <updated>2026-11-09T14:43:48Z</updated>
+  <updated>2026-11-11T13:13:47Z</updated>
   <link href="https://arxiv.org/api/query?search_query=all:%22Planet+Nine%22+OR+all:%22Planet+9%22&amp;start=0&amp;max_results=10&amp;id_list=" type="application/atom+xml"/>
   <opensearch:itemsPerPage>10</opensearch:itemsPerPage>
-  <opensearch:totalResults>161</opensearch:totalResults>
+  <opensearch:totalResults>162</opensearch:totalResults>
   <opensearch:startIndex>0</opensearch:startIndex>
+  <entry>
+    <id>http://arxiv.org/abs/2611.14330v1</id>
+    <title>An Archival Search for Outer Solar System Objects in the NOIRLab Source Catalog DR2: 65 Candidates, Including Four L4 Neptune Trojans</title>
+    <updated>2026-11-10T16:55:06Z</updated>
+    <link href="https://arxiv.org/abs/2611.14330v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2611.14330v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>I search the single-epoch detections of the NOIRLab Source Catalog DR2 (DECam, 2012-2019) for outer Solar System objects. Single-night detections are linked with a bound orbit model, vetted against artefacts, static sources and known objects, and confirmed by forced measurements on at least two new archival nights. The linker recovers 96% of known objects present on four nights in one sky tile, but end-to-end recall is about 7%, limited by cadence, tiling and catalogue incompleteness; no selection function is provided. Of 81 catalogue objects, four are designated; of the other 77, 53 are in evidence class A (multi-opposition, at least nine nights), 12 in class B and 12 in class C (not counted). On exposures never used in a fit, forced photometry detects 41 testable objects at 99% of predicted positions, as for known TNOs, against 6% at control positions; 22 pass a post hoc rule, 19 are inconclusive, none fails. Shifted controls were never confirmed by the archival image search (0 of 11,467) but were in 2.2% of trials by the catalogue precovery behind most scripted confirmations, so its nights alone are not sufficient. For the 65 class A and B candidates, 10-Myr integrations give four candidate L4 Neptune Trojans with 13-19 yr arcs, 21 resonant, 13 detached, nine scattering, two Centaurs and 16 classical objects; a detached class-B candidate has q=48.8 au. No object beyond 80 au was confirmed, which barely constrains Planet Nine. Positions are withheld until designation or 2027 June 30; their digests are published.</summary>
+    <category term="astro-ph.EP" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="astro-ph.IM" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2026-11-10T16:55:06Z</published>
+    <arxiv:comment>30 pages, 6 figures, 9 tables. Machine-readable catalogue and per-object evidence as ancillary files</arxiv:comment>
+    <arxiv:primary_category term="astro-ph.EP"/>
+    <author>
+      <name>Gioele Cerati</name>
+    </author>
+  </entry>
   <entry>
     <id>http://arxiv.org/abs/2609.29162v1</id>
     <title>Binary-pulsar Timing: A 3D Solar-System Accelerometer and Unknown-Source Probe</title>
@@ -502,28 +518,6 @@
     </author>
     <author>
       <name>Planet 9 Collaboration</name>
-    </author>
-  </entry>
-  <entry>
-    <id>http://arxiv.org/abs/2509.25428v1</id>
-    <title>Multi-year stacking searches for solar system bodies</title>
-    <updated>2025-09-29T19:36:49Z</updated>
-    <link href="https://arxiv.org/abs/2509.25428v1" rel="alternate" type="text/html"/>
-    <link href="https://arxiv.org/pdf/2509.25428v1" rel="related" type="application/pdf" title="pdf"/>
-    <summary>Digital tracking detects faint solar system bodies by stacking many images along hypothesized orbits, revealing objects that are undetectable in every individual exposure. Previous searches have been restricted to small areas and short time baselines. We present a general framework to quantify both sensitivity and computational requirements for digital tracking of nonlinear motion across the full sky over multi-year baselines. We start from matched-filter stacking and derive how signal-to-noise ratio (SNR) degrades with trial orbit mismatch, which leads to a metric tensor on orbital parameter space. The metric defines local Euclidean coordinates in which SNR loss is isotropic, and a covariant density that specifies the exact number of trial orbits needed for a chosen SNR tolerance. We validate the approach with Zwicky Transient Facility (ZTF) data, recovering known objects in blind searches that stack thousands of images over six years along billions of trial orbits. We quantify ZTF's sensitivity to populations beyond 5 au and show that stacking reaches most of the remaining Planet 9 parameter space. The computational demands of all-sky, multi-year tracking are extreme, but we demonstrate that time segmentation and image blurring greatly reduce orbit density at modest sensitivity cost. Stacking effectively boosts medium-aperture surveys to the Rubin Observatory single-exposure depth across the northern sky. Digital tracking in dense Rubin observations of a 10 sq. deg field is tractable and could detect trans-Neptunian objects to 27th magnitude in a single night, with deep drilling fields reaching fainter still.</summary>
-    <category term="astro-ph.EP" scheme="http://arxiv.org/schemas/atom"/>
-    <category term="astro-ph.IM" scheme="http://arxiv.org/schemas/atom"/>
-    <published>2025-09-29T19:36:49Z</published>
-    <arxiv:comment>27 pages, 11 figures, submitted to AJ</arxiv:comment>
-    <arxiv:primary_category term="astro-ph.EP"/>
-    <author>
-      <name>Alex Geringer-Sameth</name>
-    </author>
-    <author>
-      <name>Nathan Golovich</name>
-    </author>
-    <author>
-      <name>Keita Iwabuchi</name>
     </author>
   </entry>
 </feed>
